@@ -70,4 +70,4 @@ jobs:
         with:
           context: ./backend/
           push: true
-          tags: nedovoller/taski_backend:latest 
+          tags: nedovoller/taski_backend
