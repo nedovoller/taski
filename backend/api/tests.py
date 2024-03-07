@@ -4,9 +4,9 @@ from api import models
 from django.test import Client, TestCase
 
 
-class TaskAPITestCase(TestCase):
+class TaskiAPITestCase(TestCase):
     def setUp(self):
-        self.guset_client = Client()
+        self.guest_client = Client()
 
     def test_list_exists(self):
         """Проверка доступности списка задач."""
